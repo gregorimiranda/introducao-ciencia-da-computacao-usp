@@ -13,7 +13,7 @@
 
 # Recebe o valor do lado
 
-valor_lado = float(input("Digite o valor correspondente ao lado de um quadrado"))
+valor_lado = int(input("Digite o valor correspondente ao lado de um quadrado"))
 
 # Calcula o perímetro
 perimetro_quadrado = valor_lado * 4
