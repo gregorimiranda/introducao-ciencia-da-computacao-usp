@@ -11,8 +11,14 @@
 
 # Dica: lembre-se que um quadrado tem quatro lados iguais, logo só é necessário pedir o lado uma vez
 
+# Recebe o valor do lado
+
 valor_lado = float(input("Digite o valor correspondente ao lado de um quadrado"))
+
+# Calcula o perímetro
 perimetro_quadrado = valor_lado * 4
+
+#Calcula a área
 area_quadrado = valor_lado ** 2 
 
 print("perímetro:",perimetro_quadrado,"- área:",area_quadrado)
